@@ -1,0 +1,83 @@
+#head{
+	position:relative;
+	height:80px;
+	background-color:  #2894ff;
+}
+#nav {
+	position:absolute;
+	bottom:0;
+	left:350px;
+}
+
+#nav ul{
+	list-style-type:none;
+}
+
+#nav ul .lich{
+float:left;
+}
+
+#nav ul .licss{
+float:left;
+}
+
+#nav ul li .ah{
+color:#FFF;/*文字颜色是白色*/
+font-size:28px;
+text-align:center;/*让文本居中*/
+
+text-decoration:none; /*去掉下划线*/
+width:200px;
+height:25px;/*设置高度为28px*/
+display:block;/*这个比较关键，因为a本身就是联级元素，本身不具有宽高，用这个把它变成块级元素，这样前面设置的宽和高就能起作用了*/
+}
+
+#nav ul li .acss_2{
+color:#FFF;/*文字颜色是白色*/
+font-size:25px;
+text-align:center;/*让文本居中*/
+
+text-decoration:none; /*去掉下划线*/
+width:70px;
+height:23px;/*设置高度为28px*/
+display:block;/*这个比较关键，因为a本身就是联级元素，本身不具有宽高，用这个把它变成块级元素，这样前面设置的宽和高就能起作用了*/
+}
+
+#nav ul li .acss_4{
+color:#FFF;/*文字颜色是白色*/
+font-size:25px;
+text-align:center;/*让文本居中*/
+
+text-decoration:none; /*去掉下划线*/
+width:120px;
+height:23px;/*设置高度为28px*/
+display:block;/*这个比较关键，因为a本身就是联级元素，本身不具有宽高，用这个把它变成块级元素，这样前面设置的宽和高就能起作用了*/
+}
+
+#nav ul li .acss_6{
+color:#FFF;/*文字颜色是白色*/
+font-size:25px;
+text-align:center;/*让文本居中*/
+
+text-decoration:none; /*去掉下划线*/
+width:170px;
+height:23px;/*设置高度为28px*/
+display:block;/*这个比较关键，因为a本身就是联级元素，本身不具有宽高，用这个把它变成块级元素，这样前面设置的宽和高就能起作用了*/
+}
+
+
+#nav ul li .acss_2:hover{ /*这个大概的意思就是当鼠标放到这个a元素的上面时，这个a元素的样式就按下面的代码执行*/
+border:1px solid #2894ff;
+color:white;
+}
+
+#nav ul li .acss_4:hover{ /*这个大概的意思就是当鼠标放到这个a元素的上面时，这个a元素的样式就按下面的代码执行*/
+border:1px solid #2894ff;
+color:white;
+}
+
+#nav ul li .acss_6:hover{ /*这个大概的意思就是当鼠标放到这个a元素的上面时，这个a元素的样式就按下面的代码执行*/
+border:1px solid #2894ff;
+color:white;
+}
+

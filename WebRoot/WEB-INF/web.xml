@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelectPro</servlet-name>
+    <servlet-class>servlet.DelectPro</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPro</servlet-name>
+    <servlet-class>servlet.AddPro</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditPro</servlet-name>
+    <servlet-class>servlet.EditPro</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStu</servlet-name>
+    <servlet-class>servlet.AddStu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditStu</servlet-name>
+    <servlet-class>servlet.EditStu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteStu</servlet-name>
+    <servlet-class>servlet.DeleteStu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubmitGrade</servlet-name>
+    <servlet-class>servlet.SubmitGrade</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProAddCou</servlet-name>
+    <servlet-class>servlet.ProAddCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProDeleteCou</servlet-name>
+    <servlet-class>servlet.ProDeleteCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStuCou</servlet-name>
+    <servlet-class>servlet.AddStuCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StuAddCou</servlet-name>
+    <servlet-class>servlet.StuAddCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StuDeleteCou</servlet-name>
+    <servlet-class>servlet.StuDeleteCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StuDeleteAllCou</servlet-name>
+    <servlet-class>servlet.StuDeleteAllCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CloseReg</servlet-name>
+    <servlet-class>servlet.CloseReg</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelectPro</servlet-name>
+    <url-pattern>/servlet/DelectPro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPro</servlet-name>
+    <url-pattern>/servlet/AddPro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPro</servlet-name>
+    <url-pattern>/servlet/EditPro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStu</servlet-name>
+    <url-pattern>/servlet/AddStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditStu</servlet-name>
+    <url-pattern>/servlet/EditStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteStu</servlet-name>
+    <url-pattern>/servlet/DeleteStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitGrade</servlet-name>
+    <url-pattern>/servlet/SubmitGrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProAddCou</servlet-name>
+    <url-pattern>/servlet/ProAddCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProDeleteCou</servlet-name>
+    <url-pattern>/servlet/ProDeleteCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStuCou</servlet-name>
+    <url-pattern>/servlet/AddStuCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuAddCou</servlet-name>
+    <url-pattern>/servlet/StuAddCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuDeleteCou</servlet-name>
+    <url-pattern>/servlet/StuDeleteCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuDeleteAllCou</servlet-name>
+    <url-pattern>/servlet/StuDeleteAllCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CloseReg</servlet-name>
+    <url-pattern>/servlet/CloseReg</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

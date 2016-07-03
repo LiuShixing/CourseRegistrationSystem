@@ -1,0 +1,44 @@
+#nav ul{
+	list-style-type:none;
+	
+	}/* CSS Document */
+
+#nav .licss{
+	float:left;
+	font-family:'微软雅黑';
+	font-size:25px;
+	}
+#nav .lich{
+	float:left;
+	font-family:'微软雅黑';
+	font-size:28px;
+	}
+#nav {
+	position:absolute;
+	bottom:0;
+	left:250px;
+}
+
+#head{
+	position:relative;
+	height:80px;
+	background-color: #87cefa;
+}
+
+a:link,a:visited{
+ text-decoration:none;  /*超链接无下划线*/
+ 
+ 	link:white;
+	alink:red;
+	vlink:white;
+ 
+}
+.acss:hover{
+ text-decoration:underline;  /*鼠标放上去有下划线*/
+}
+.acss {
+
+}
+body {
+	text-align:center;
+}
